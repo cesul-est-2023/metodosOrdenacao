@@ -29,7 +29,8 @@ function partition(lista, esquerda, direita) {
   return i + 1;
 }
 
-const lista = gerarLista(10);
+//const lista = gerarLista(10);
+const lista = [7, 3, 8, 1, 10, 2, 9, 12, 4];
 console.log("Lista Inicial: ", lista);
 
 quickSort(lista);
